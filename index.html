@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--favi icons -->
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&display=swap" rel="stylesheet">
+<!-- font cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <div id="container">
+<!-- nav bar -->
+<nav id="navbar">
+<img id="logo" src="./4-removebg-preview.png" alt="logo">
+<ul>
+    <li class="listitems"><a class="links" href="#HOME">HOME</a></li> 
+<li class="listitems"><a class="links" href="#about">ABOUT</a></li>
+<li class="listitems"><a class="links" href="#SKILLS">SKILL</a></li>
+<li class="listitems"><a class="links" href="#contacts">CONTACT</a></li>
+</ul>
+
+</nav>
+
+<!-- HOME -->
+<section id="HOME">
+<div class="title">
+<H1 class="TIT-H1"> I m' Victor <span id="lastname">June</span> </H1>
+<p class="tit-2">This is my official PORTFOLIO website to describe all the details <br>
+Details include work and experience in web development</p>
+<a id="download" href="./DOC.pdf" download=>DOWNLOAD CV</a>
+
+</div>
+<div class="images">
+<img class="img1" id="shape" src="./3-removebg-preview.png" alt="shape">
+<img class="img1" id="boy" src="./5-removebg-preview.png" alt="boy">
+</div>
+
+</section>
+    <!-- ABOUT -->
+
+<section id="about">
+
+    <div class="heading">
+ <h2>About me </h2>
+ <span>Introduction</span>
+    </div>
+  <div class="about_cont">
+<div class="about_img">
+   <img src="./1-removebg-preview.png" alt="about"></div>
+   <div class="about_dtls">
+    <p class="para_2">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsam commodi aliquid quidem. Porro magnam sed beatae voluptates aspernatur vero non quidem. Accusamus accusantium quasi ipsum eum, quos laborum </p>
+    <div class="info">
+        <div class="cv2"><i class="fa-regular fa-user fa-beat-fade" style="color: #0e94fb;"></i>
+        <span class="cv1">Victor June</span></div>
+    
+        <div class="cv2"><i class="fa-solid fa-phone fa-beat-fade" style="color: #1a7ae0;"></i><span class="cv1">048222-0007</span></div>
+    
+        <div class="cv2"><i class="fa-solid fa-envelope fa-beat-fade" style="color: #1f7ce0;"></i>
+        <span class="cv1">victorjune007@gmail.com</span></div>
+    
+        <div class="cv2"><i class="fa-brands fa-github fa-beat-fade" style="color: #147ceb;"></i><span class="cv1">victorjune</span></div>
+        </div>
+   </div>
+   
+  </div>
+
+
+</section>
+
+  <!-- SKILLS -->
+  <section id="SKILLS">
+<div class="heading">
+<h2> Skills </h2> 
+<span>MY Skills</span>
+</div>
+
+  <div class="skill_contr">
+
+            <div class="progs_contr">
+<!-- html -->
+                       <div class="prgm_bar">
+                          <h3>HTML</h3>
+                          <span>95%</span>
+                          <div class="base-bar"></div>
+                          <div class="base-bar html-bar"></div>
+                          
+                  
+                       </div>
+<!-- css -->
+                       <div class="prgm_bar">
+                        <h3>CSS</h3>
+                        <span>88%</span>
+                        <div class="base-bar"></div>
+                        <div class="base-bar css-bar"></div>
+                        
+                
+                       </div>
+<!-- js -->
+                     <div class="prgm_bar">
+                      <h3>JS</h3>
+                      <span>89%</span>
+                      <div class="base-bar"></div>
+                      <div class="base-bar js-bar"></div>
+                      
+              
+                     </div>
+<!-- react -->
+                   <div class="prgm_bar">
+                    <h3>REACT</h3>
+                    <span>85%</span>
+                    <div class="base-bar"></div>
+                    <div class="base-bar react-bar"></div>
+                    
+            
+                   </div>
+            </div>
+<div class="skill_img">
+  <img src="./6-removebg-preview.png" alt="nophoto">
+</div>
+
+</div>
+
+
+
+  </section>
+
+    
+
+
+      <!-- CONTACTS -->
+      <section id="contacts">
+        <div class="heading">
+<h2>Contacts</h2>
+<span>My Contacts</span>
+        </div>
+        <div class="icon_sets">
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/akshay-krishna-p-0a807123b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+          </div>
+          <div class="icon"><a href="https://instagram.com/_akshaykrishna_p?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram" style="color: #131311;"></i></a></div>
+          <div class="icon"><a href="https://www.facebook.com/profile.php?id=100008730258997&mibextid=2JQ9oc"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a></div>
+          <div class="icon"><a href="https://www.linkedin.com/in/akshay-krishna-p-0a807123b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank"><i class="fa-brands fa-whatsapp" style="color: #020202;"></i></a></div>
+          <div class="icon"><a href="https://www.facebook.com/people/Akshay-Krishna/pfbid02XsKs6eN8u3aT9ZNsJEMnCYPoDKEV1TaWjdPM2NzuhiZZv8ZjtCeRd7vr1FwWN18El/?mibextid=2JQ9oc"><i class="fa-brands fa-github" style="color: #080703;"></i></a></div>
+
+        </div>
+      </section>
+      <footer>
+        <p>@ My PORTFOLIO Design 2023, All Rights Reserved <sup>@</sup> Victor June</p>
+      </footer>
+      <div class="up-arrow">
+        <a href=""><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+</body>
+
+</html>
